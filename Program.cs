@@ -1,12 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+using Postgrado.Entidades;
+using Postgrado.util;
+using System;
 using static System.Console;
+
 namespace Postgrado
 {
     class Postgrado{
         static void Main(string[] args){
-            WriteLine("hola mundo");
+            MockUniversidad UCatec = new MockUniversidad();
+            UCatec.Inicializar();
+            UCatec.Universidad?.Printer();
         }
+
+        
     }
 
     

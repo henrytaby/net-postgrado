@@ -17,9 +17,7 @@ namespace Postgrado.Entidades
 
     public void Printer()
     {
-      //WriteLine("====================");
       WriteLine($"--------------------------------------------[ UNIVERSIDAD: {this.Nombre} ] --------------------------------------------");
-      //WriteLine("====================");
       WriteLine($"-----------------------------------------/// [ MATERIAS & ALUMNOS ] ///-----------------------------------------");
       if (this.Materias != null)
       {
